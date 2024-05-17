@@ -9,11 +9,11 @@ import * as React from 'react'
 import { NavigationContainer,NavigationProp } from "@react-navigation/native";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-type Props = {
-  navigation: NavigationProp<any>;
-};
+// type Props = {
+//   navigation: NavigationProp<any>;
+// };
 
-const HomeScreen: React.FC<Props> = ({ navigation }) => {
+const HomeScreen = () => {
   const drawer = React.useRef<DrawerLayoutAndroid>(null);
   // const changeDrawerPosition = () => {
   //   if (drawerPosition === 'left') {
