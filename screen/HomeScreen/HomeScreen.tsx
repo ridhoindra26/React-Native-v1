@@ -45,7 +45,7 @@ const HomeScreen = () => {
           Swipe from the side or press button below to see it!
         </Text>
         <Button
-          title="Disamping kiri ada drawer"
+          title="Disamping kiri ada drawer bisa digeser"
           onPress={() => drawer.current?.openDrawer()}
         />
       </View>
